@@ -1,0 +1,6 @@
+<view class="todo-item {{completed ? 'checked' : ''}}" onTap="handelTap">
+  <checkbox class="todo-item-checkbox" value="{{text}}" checked="{{completed}}"  />
+  <text class="todo-item-text" >{{text}}</text>
+  <text class="todo-item-time">{{timeline}}</text>
+</view>
+  

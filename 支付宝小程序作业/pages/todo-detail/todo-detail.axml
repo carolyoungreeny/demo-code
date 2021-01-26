@@ -1,0 +1,14 @@
+<view class="todo-con">
+  <view class="todo-con-title">
+      Editing
+  </view>
+  <view class="{{isEmpty ? 'Empty': 'item-tip'}}">空空如也~ =o=</view>
+  <view a:for="{{todoDetails}}" a:for-item="item" class="todo-item" a:key="text">
+    <view class="todo-item-con">
+      <input class="todo-item-text" placeholder="请输入todo内容" value="{{item.text}}" data-index="{{index}}" onBlur="textChange" />
+      <input class="todo-item-time" placeholder="请输入deadline" value="{{item.timeline}}" data-index="{{index}}" onBlur="timelineChange" />
+    </view>
+    <text>{{item.completed ? 'yes finished':'not finished'}}</text>
+    <button size="mini" type="default" onTap="todoDel" class="todo-item-del" data-index="{{index}}">删除</button>
+  </view>
+</view>

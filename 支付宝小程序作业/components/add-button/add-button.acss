@@ -1,0 +1,17 @@
+.add-button {
+  display: inline-block;
+  width: 300rpx;
+  background: none;
+  color: #FFF;
+  border: none;
+}
+
+.add-icon {
+  margin-right: 10rpx;
+  font-size: 52rpx;
+  color: #EBB471;
+}
+
+.notBlock{
+  display: none;
+}

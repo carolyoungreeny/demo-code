@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/todos/todos",
+    "pages/add-todo/add-todo",
+    "pages/todo-detail/todo-detail"
+  ],
+  "window": {
+    "defaultTitle": "TodoList",
+    "titleBarColor": "#CA7853"
+  }
+}

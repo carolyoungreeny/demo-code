@@ -1,0 +1,6 @@
+<button type="default" class="{{isBlock ? '': 'notBlock'}}" onTap="onClickEdit">编辑Todo列表</button>
+
+<button class="add-button" hover-class="none" onTap="onClickAdd">
+    <text class="add-icon">+</text>
+    <text>Add Todo</text>
+</button>
